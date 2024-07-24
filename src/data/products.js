@@ -1,0 +1,35 @@
+const products = [
+  {
+    id: 1,
+    title: 'Tangled Up In Green',
+    image: ['/images/main4.png', '/images/main2.png', '/images/main3.png'],
+    description: 'Tangled Up In Green, a vision of Total Environment, is a luxury plotted development nestled amidst the lush landscapes of Devanahalli This peaceful hideaway in North Bangalore sits on 115 acres and has exclusive residential plots with a modern design and green living blend. The plots range from 1800 sq ft το 7200 sq ft του could be fascinated by the botanical wonders found at the Tree Museum or.',
+    locations: [
+      { position: [51.51, -0.1], title: 'Kolkata' },
+    ],
+    rate: '1.4 Cr',
+    rate_desc: '(₹6.990/Sq Ft)',
+    size: 'Plot Size',
+    size_res: 'Plot size 1800 sq. ft. to 7200 sq. ft.',
+    size_desc: '1,800 to 7,200 Sq Ft',
+    area: 'Area',
+    area_res: 'Area 115 Acres & 16 Guantas',
+    area_desc: '115 Acres',
+    unit: 'Total Units',
+    unit_desc: '968',
+    type: 'Project Type',
+    type_desc: 'Plotted Development',
+    status: 'Status',
+    status_desc: 'Newly Launched',
+    liberary: "Children's Liberary",
+    pet: 'Pet Park',
+    pool: 'Heated Pool',
+    ampitheare: 'Ampitheare',
+    tree: 'Tree Museum',
+    jogging: 'Jogging Track',
+    cycling: 'Cycling Track',
+    basket: 'Basket ball volley',
+  },
+]
+
+export default products
